@@ -2,7 +2,7 @@
 # aumentar, diminuir, dobro e metade.
 # Faça um programa que use essas funções
 
-import moeda
+import methods.moeda as moeda
 
 valor = float(input("Digite um valor: R$"))
 print(f"A metade de {valor} é {moeda.metade(valor)}.")

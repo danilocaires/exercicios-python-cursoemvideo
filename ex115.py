@@ -1,7 +1,7 @@
 # Crie um pequeno sistema modularizado que permite cadastrar pessoas pelo seu nome e idade em um arquivo de texto simples
 # O sistema só vai ter duas opções: Cadastrar uma nova pessoa e listar as pessoas cadastradas
 from time import sleep
-import sistema as s
+import methods.sistema as s
 
 while True:
     s.showmenu()

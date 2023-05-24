@@ -1,4 +1,4 @@
-db_file = "db.txt"
+db_file = "files/db.txt"
 
 def showmenu():
     print("")

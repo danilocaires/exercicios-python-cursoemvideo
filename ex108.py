@@ -1,6 +1,6 @@
 # Adapte o código do ex107 criando uma função adicional que formate os numeros para valores em R$
 
-import moeda
+import methods.moeda as moeda
 
 valor = float(input("Digite um valor: R$"))
 print(f"A metade de {moeda.rs(valor)} é {moeda.rs(moeda.metade(valor))}.")

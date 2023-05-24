@@ -2,4 +2,4 @@
 
 import playsound
 
-playsound.playsound("ex021.mp3",True)
+playsound.playsound("files/ex021.mp3",True)
